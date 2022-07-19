@@ -184,6 +184,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edq-YJ-ugj">
+                                <rect key="frame" x="165" y="674" width="99" height="28"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ufx-dN-WNT" kind="show" id="vUq-xU-Qzn"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-18 at 3.55.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="QUf-th-6H0">
                                 <rect key="frame" x="-45" y="-143" width="504" height="1182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -197,18 +205,15 @@
                                     <segue destination="AF6-Oq-cqq" kind="show" id="qpH-UJ-X61"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGj-J7-OHt">
-                                <rect key="frame" x="112" y="644" width="204" height="164"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <segue destination="ufx-dN-WNT" kind="show" id="jRY-53-9rz"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="edq-YJ-ugj" secondAttribute="bottom" constant="140" id="C7U-dG-hk5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="edq-YJ-ugj" secondAttribute="trailing" constant="150" id="fUQ-AD-UY2"/>
+                            <constraint firstItem="edq-YJ-ugj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="630" id="m9T-oa-hCi"/>
+                            <constraint firstItem="edq-YJ-ugj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="yIP-XU-FhV"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ubZ-Zs-pXS"/>
                 </viewController>
@@ -224,113 +229,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-19 at 2.19.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-Ll-qda">
-                                <rect key="frame" x="-121" y="-27" width="657" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-19 at 11.16.15 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-Ll-qda">
+                                <rect key="frame" x="-119" y="0.0" width="657" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# of cups" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-Q5-m8V">
-                                <rect key="frame" x="200" y="354" width="184" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-Q5-m8V">
+                                <rect key="frame" x="159" y="339" width="155" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# of cups" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMv-hu-gEJ">
-                                <rect key="frame" x="200" y="426" width="184" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nMv-hu-gEJ">
+                                <rect key="frame" x="159" y="414" width="155" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# of ounces" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wJU-mU-RxC">
-                                <rect key="frame" x="200" y="501" width="184" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wJU-mU-RxC">
+                                <rect key="frame" x="159" y="487" width="155" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# of cups" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efK-Em-MCF">
-                                <rect key="frame" x="200" y="575" width="184" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efK-Em-MCF">
+                                <rect key="frame" x="159" y="566" width="155" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2e-fI-ekn">
-                                <rect key="frame" x="107" y="672" width="207" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <action selector="submitButton:" destination="ufx-dN-WNT" eventType="touchUpInside" id="aA2-h4-tUw"/>
-                                    <segue destination="ySn-6w-0Z3" kind="show" id="2tI-Qr-8ST"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BIu-o7-2Lk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="wJU-mU-RxC" firstAttribute="top" secondItem="nMv-hu-gEJ" secondAttribute="bottom" constant="41" id="4Qc-dh-VtP"/>
-                            <constraint firstItem="wJU-mU-RxC" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="200" id="4vz-ck-22o"/>
-                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="wJU-mU-RxC" secondAttribute="trailing" constant="30" id="8jN-wN-ret"/>
-                            <constraint firstItem="VUo-Q5-m8V" firstAttribute="top" secondItem="BIu-o7-2Lk" secondAttribute="top" constant="310" id="BYV-zk-wH2"/>
-                            <constraint firstItem="nMv-hu-gEJ" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="200" id="Bsk-Kx-pPx"/>
-                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="VUo-Q5-m8V" secondAttribute="trailing" constant="30" id="EeD-Fo-eZo"/>
-                            <constraint firstItem="efK-Em-MCF" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="200" id="GF7-8L-IvV"/>
-                            <constraint firstItem="efK-Em-MCF" firstAttribute="top" secondItem="wJU-mU-RxC" secondAttribute="bottom" constant="40" id="IgJ-xL-W35"/>
-                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="nMv-hu-gEJ" secondAttribute="trailing" constant="30" id="Q8V-vz-R3n"/>
-                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="efK-Em-MCF" secondAttribute="trailing" constant="30" id="cSk-jz-ed4"/>
-                            <constraint firstItem="nMv-hu-gEJ" firstAttribute="top" secondItem="VUo-Q5-m8V" secondAttribute="bottom" constant="38" id="hU9-Vl-DYL"/>
-                            <constraint firstItem="VUo-Q5-m8V" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="200" id="wmi-QQ-krf"/>
+                            <constraint firstItem="wJU-mU-RxC" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="159" id="4vz-ck-22o"/>
+                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="wJU-mU-RxC" secondAttribute="trailing" constant="100" id="8jN-wN-ret"/>
+                            <constraint firstItem="nMv-hu-gEJ" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="159" id="Bsk-Kx-pPx"/>
+                            <constraint firstItem="efK-Em-MCF" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="159" id="GF7-8L-IvV"/>
+                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="nMv-hu-gEJ" secondAttribute="trailing" constant="100" id="Q8V-vz-R3n"/>
+                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="efK-Em-MCF" secondAttribute="trailing" constant="100" id="cSk-jz-ed4"/>
+                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="trailing" secondItem="VUo-Q5-m8V" secondAttribute="trailing" constant="100" id="kIA-GU-dRL"/>
+                            <constraint firstItem="VUo-Q5-m8V" firstAttribute="leading" secondItem="BIu-o7-2Lk" secondAttribute="leading" constant="159" id="qOj-q7-PfD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ldK-KI-LHR"/>
-                    <connections>
-                        <outlet property="fruitTextField" destination="VUo-Q5-m8V" id="pKU-Nt-FDk"/>
-                        <outlet property="grainsTextField" destination="wJU-mU-RxC" id="siA-8I-nCk"/>
-                        <outlet property="proteinTextField" destination="efK-Em-MCF" id="02n-Hh-m3R"/>
-                        <outlet property="vegTextField" destination="nMv-hu-gEJ" id="FwU-xH-h0e"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tcr-W6-Dd4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="802.89855072463774" y="69.642857142857139"/>
         </scene>
-        <!--Diet2 Scene-->
-        <scene sceneID="qFx-Y7-S7T">
-            <objects>
-                <viewController id="ySn-6w-0Z3" customClass="Diet2_Scene" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ikI-n2-vW5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpF-sV-pMf">
-                                <rect key="frame" x="74" y="316" width="88" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-19 at 2.23.36 PM" translatesAutoresizingMaskIntoConstraints="NO" id="7YO-JK-KaB">
-                                <rect key="frame" x="-49" y="0.0" width="513" height="871"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="WHN-Sp-jsg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="aRW-Sc-qZF"/>
-                    <connections>
-                        <outlet property="DietSummary" destination="ZpF-sV-pMf" id="1Fi-TW-OT5"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dma-dN-HAr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1544.9275362318842" y="76.339285714285708"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qpH-UJ-X61"/>
+        <segue reference="7Et-6o-Zgj"/>
+        <segue reference="eDv-B5-J45"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="7 hrs" width="500" height="1044"/>
         <image name="8 hrs" width="498" height="1038"/>
-        <image name="9 hrs" width="486" height="1008"/>
+        <image name="9 hrs" width="502" height="1038"/>
         <image name="Screen Shot 2022-07-18 at 3.55.07 PM" width="316" height="584"/>
-        <image name="Screen Shot 2022-07-19 at 2.19.19 PM" width="374" height="782"/>
-        <image name="Screen Shot 2022-07-19 at 2.23.36 PM" width="374" height="784"/>
+        <image name="Screen Shot 2022-07-19 at 11.16.15 AM" width="458" height="962"/>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="good home" width="492" height="1038"/>
         <image name="house" catalog="system" width="128" height="106"/>
