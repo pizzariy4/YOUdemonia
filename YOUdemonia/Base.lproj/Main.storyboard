@@ -3,23 +3,169 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sleep1-->
+        <scene sceneID="d5j-7G-sju">
+            <objects>
+                <viewController title="Sleep1" id="6ub-oR-rTx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cdP-FM-Gce">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9 hrs" translatesAutoresizingMaskIntoConstraints="NO" id="RzA-B8-uv7">
+                                <rect key="frame" x="-10" y="-65" width="434" height="1027"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxB-mz-r9r">
+                                <rect key="frame" x="10" y="20" width="77" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="40" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AF6-Oq-cqq" kind="show" id="eDv-B5-J45"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Z8-Cx-TGD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KuY-X1-RhT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rvk-00-XSO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-875" y="-1356"/>
+        </scene>
+        <!--Sleep2-->
+        <scene sceneID="e4L-mo-HxU">
+            <objects>
+                <viewController title="Sleep2" id="6dZ-XS-42i" customClass="Sleep2" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tmM-Bt-HzN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8 hrs" translatesAutoresizingMaskIntoConstraints="NO" id="5Vv-Jy-5RS">
+                                <rect key="frame" x="0.0" y="-38" width="414" height="934"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLn-3E-mbA">
+                                <rect key="frame" x="20" y="20" width="77" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="40" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AF6-Oq-cqq" kind="show" id="hPQ-G4-6Xe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="q84-Q1-Xgm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VoK-dp-7Gy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfJ-NM-hkq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="-1356.0267857142856"/>
+        </scene>
+        <!--Sleep3-->
+        <scene sceneID="Sb0-FA-rKO">
+            <objects>
+                <viewController title="Sleep3" id="GZE-uX-bGg" customClass="Sleep3" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9T-a0-Fsw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7 hrs" translatesAutoresizingMaskIntoConstraints="NO" id="3iU-gE-etK">
+                                <rect key="frame" x="0.0" y="-39" width="414" height="935"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lA-oJ-S5E">
+                                <rect key="frame" x="20" y="44" width="77" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="40" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AF6-Oq-cqq" kind="show" id="lqw-hT-por"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0pf-fK-7Wr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9lo-Ca-9Fd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4x-gq-16Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.97101449275374" y="-1356.0267857142856"/>
+        </scene>
+        <!--SleepHome-->
         <scene sceneID="qfG-Ic-hRJ">
             <objects>
-                <viewController id="AF6-Oq-cqq" sceneMemberID="viewController">
+                <viewController title="SleepHome" id="AF6-Oq-cqq" customClass="SleepHome" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GC1-F5-taZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-19 at 11.56.14 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r0-ki-fUS">
-                                <rect key="frame" x="-11" y="-16" width="439" height="858"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="good home" translatesAutoresizingMaskIntoConstraints="NO" id="6r0-ki-fUS">
+                                <rect key="frame" x="-16" y="-16" width="444" height="864"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX6-OM-2Cy">
+                                <rect key="frame" x="27" y="264" width="361" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="6ub-oR-rTx" kind="show" id="7Et-6o-Zgj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9c-kd-75d">
+                                <rect key="frame" x="20" y="424" width="368" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="6dZ-XS-42i" kind="show" id="Vca-VK-bES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpm-XV-Yge">
+                                <rect key="frame" x="20" y="591" width="368" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="GZE-uX-bGg" kind="show" id="E2B-tm-vvQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ac-4m-M5B">
+                                <rect key="frame" x="27" y="761" width="62" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="house" catalog="system" symbolScale="default"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="50" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="77s-GU-E0Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P2m-u8-t4j"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -28,18 +174,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCN-t0-4cj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="-591.29464285714278"/>
+            <point key="canvasLocation" x="-17.39130434782609" y="-669.64285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--HomePage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HomePage" id="BYZ-38-t0r" customClass="ViewController" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edq-YJ-ugj">
-                                <rect key="frame" x="165" y="674" width="99" height="48"/>
+                                <rect key="frame" x="165" y="674" width="99" height="28"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
@@ -56,7 +202,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
-                                    <segue destination="AF6-Oq-cqq" kind="show" id="iiC-5b-l4k"/>
+                                    <segue destination="AF6-Oq-cqq" kind="show" id="qpH-UJ-X61"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,15 +215,16 @@
                             <constraint firstItem="edq-YJ-ugj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="165" id="yIP-XU-FhV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ubZ-Zs-pXS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Diet-->
         <scene sceneID="MuW-kF-AxG">
             <objects>
-                <viewController id="ufx-dN-WNT" sceneMemberID="viewController">
+                <viewController title="Diet" id="ufx-dN-WNT" customClass="Diet" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IaJ-gi-KB8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,10 +274,22 @@
             <point key="canvasLocation" x="802.89855072463774" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="E2B-tm-vvQ"/>
+        <segue reference="lqw-hT-por"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="7 hrs" width="500" height="1044"/>
+        <image name="8 hrs" width="498" height="1038"/>
+        <image name="9 hrs" width="486" height="1008"/>
         <image name="Screen Shot 2022-07-18 at 3.55.07 PM" width="316" height="584"/>
         <image name="Screen Shot 2022-07-19 at 11.16.15 AM" width="458" height="962"/>
-        <image name="Screen Shot 2022-07-19 at 11.56.14 AM" width="552" height="1148"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <image name="good home" width="492" height="1038"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
