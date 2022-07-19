@@ -9,6 +9,28 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="qfG-Ic-hRJ">
+            <objects>
+                <viewController id="AF6-Oq-cqq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GC1-F5-taZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-19 at 11.56.14 AM" translatesAutoresizingMaskIntoConstraints="NO" id="6r0-ki-fUS">
+                                <rect key="frame" x="-11" y="-16" width="439" height="858"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P2m-u8-t4j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="m4K-t6-FFZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KCN-t0-4cj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="-591.29464285714278"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,6 +50,15 @@
                                 <rect key="frame" x="-45" y="-143" width="504" height="1182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4q-bn-qUj">
+                                <rect key="frame" x="94" y="168" width="239" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="AF6-Oq-cqq" kind="show" id="iiC-5b-l4k"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -99,6 +130,7 @@
     <resources>
         <image name="Screen Shot 2022-07-18 at 3.55.07 PM" width="316" height="584"/>
         <image name="Screen Shot 2022-07-19 at 11.16.15 AM" width="458" height="962"/>
+        <image name="Screen Shot 2022-07-19 at 11.56.14 AM" width="552" height="1148"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
