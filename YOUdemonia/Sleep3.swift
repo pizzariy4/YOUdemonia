@@ -11,11 +11,31 @@ class Sleep3: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        moreSleep.isHidden = true
+        enoughSleep.isHidden = true
+        lessSleep.isHidden = true
+       
     }
     
-
+    @IBOutlet weak var moreSleep: UILabel!
+    @IBOutlet weak var enoughSleep: UILabel!
+    @IBOutlet weak var lessSleep: UILabel!
+    
+    @IBAction func lessThan7(_ sender: Any) {
+        moreSleep.isHidden = false
+        enoughSleep.isHidden = true
+        lessSleep.isHidden = true
+    }
+    @IBAction func about(_ sender: Any) {
+        moreSleep.isHidden = true
+        enoughSleep.isHidden = false
+        lessSleep.isHidden = true
+    }
+    @IBAction func moreThan7(_ sender: Any) {
+        moreSleep.isHidden = true
+        enoughSleep.isHidden = true
+        lessSleep.isHidden = false
+    }
     /*
     // MARK: - Navigation
 
