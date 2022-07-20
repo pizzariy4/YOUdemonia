@@ -7,31 +7,39 @@
 
 import UIKit
 
-public var userFruitInput = "" //storing the user’s text input from the fruit text field, global var
-public var userVegInput = ""
-public var userGrainsInput = ""
-public var userProteinInput = ""
+public var userFruitInput = " " //storing the user’s text input from the fruit text field, global var
+public var userVegInput = " "
+public var userGrainsInput = " "
+public var userProteinInput = " "
 
-class Diet: UIViewController {
+class Diet: ViewController {
     
-    @IBOutlet weak var fruitTextField: UITextField!
+
+
+    @IBOutlet weak var fruitText: UITextField!
+    
     @IBOutlet weak var vegTextField: UITextField!
+    
     @IBOutlet weak var grainsTextField: UITextField!
+    
     @IBOutlet weak var proteinTextField: UITextField!
     
     @IBAction func submitButton(_ sender: Any) {
-        if let fruitTextField = fruitTextField.text {
-        userFruitInput = fruitTextField
-        }
-    if let vegTextField = vegTextField.text {
-        userFruitInput = vegTextField
-        }
-    if let grainsTextField = grainsTextField.text { //changed this from fruitTextField to grains in night; could have been the issue
-        userFruitInput = grainsTextField
-        }
-    if let proteinTextField = proteinTextField.text {
-        userFruitInput = proteinTextField
-        }
+        //print("hi")
+        if let fruitTextField = fruitText.text {
+                  userFruitInput = fruitTextField
+                  }
+              if let vegTextField = vegTextField.text {
+                  userVegInput = vegTextField
+                  }
+              if let grainsTextField = grainsTextField.text { //changed this from fruitTextField to grains in night; could have been the issue
+                  userGrainsInput = grainsTextField
+                  }
+              if let proteinTextField = proteinTextField.text {
+                  userProteinInput = proteinTextField
+                  }
+        performSegue(withIdentifier: "dietToSummary", sender: self)
+
     /*if vegTextField.text != nil {
         userVegInput = vegTextField.text!
         }
