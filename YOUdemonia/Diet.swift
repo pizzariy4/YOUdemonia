@@ -21,26 +21,27 @@ class Diet: UIViewController {
     
     @IBAction func submitButton(_ sender: Any) {
         if let fruitTextField = fruitTextField.text {
-            userFruitInput = fruitTextField
-            }
-        if let vegTextField = vegTextField.text {
-            userFruitInput = vegTextField
-            }
-        if let grainsTextField = fruitTextField.text {
-            userFruitInput = grainsTextField
-            }
-        if let proteinTextField = proteinTextField.text {
-            userFruitInput = proteinTextField
-            }
-        /*if vegTextField.text != nil {
-            userVegInput = vegTextField.text!
-            }
-        if grainsTextField.text != nil {
-            userGrainsInput = grainsTextField.text!
-            }
-        if proteinTextField.text != nil {
-            userProteinInput = proteinTextField.text!
-            }*/
+        userFruitInput = fruitTextField
+        }
+    if let vegTextField = vegTextField.text {
+        userFruitInput = vegTextField
+        }
+    if let grainsTextField = grainsTextField.text { //changed this from fruitTextField to grains in night; could have been the issue
+        userFruitInput = grainsTextField
+        }
+    if let proteinTextField = proteinTextField.text {
+        userFruitInput = proteinTextField
+        }
+    /*if vegTextField.text != nil {
+        userVegInput = vegTextField.text!
+        }
+    if grainsTextField.text != nil {
+        userGrainsInput = grainsTextField.text!
+        }
+    if proteinTextField.text != nil {
+        userProteinInput = proteinTextField.text!
+        }*/
+
     }
 
     

@@ -23,24 +23,25 @@ class Diet2_Scene: UIViewController {
         } else {
         enoughFruit = "You need some more fruit."
         }
-
+ 
         if Double(userVegInput)! >= 2 {
-        enoughFruit = "You ate enough vegetables today."
+        enoughVeg = "You ate enough vegetables today."
         } else {
-        enoughFruit = "You need some more vegetables."
+        enoughVeg = "You need some more vegetables."
         }
-
+ 
         if Double(userGrainsInput)! >= 6 {
-        enoughFruit = "You ate enough grains today."
+        enoughGrains = "You ate enough grains today."
         } else {
-        enoughFruit = "You need some more grains."
+        enoughGrains = "You need some more grains."
+        }
+ 
+        if Double(userProteinInput)! >= 5 {
+        enoughProtein = "You ate enough protein today."
+        } else {
+        enoughProtein = "You need some more protein."
         }
 
-        if Double(userProteinInput)! >= 5 {
-        enoughFruit = "You ate enough protein today."
-        } else {
-        enoughFruit = "You need some more protein."
-        }
         
         
         
