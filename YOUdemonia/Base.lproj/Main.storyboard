@@ -613,18 +613,16 @@
                                 <rect key="frame" x="-19" y="-155" width="453" height="1152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z1-OX-uEK">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z1-OX-uEK">
                                 <rect key="frame" x="20" y="20" width="48" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="3bb-EG-V00" kind="show" id="e6n-ae-EB1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqz-45-nf6">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqz-45-nf6">
                                 <rect key="frame" x="30" y="771" width="29" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -635,9 +633,25 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="7Ay-OE-o4Y"/>
                                 </connections>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RzB-JV-D3g">
+                                <rect key="frame" x="0.0" y="80" width="414" height="671"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bvy-0k-8LO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="671"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7D6-Wr-pdW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RzB-JV-D3g" firstAttribute="leading" secondItem="7D6-Wr-pdW" secondAttribute="leading" id="3NR-yk-TDg"/>
+                            <constraint firstItem="RzB-JV-D3g" firstAttribute="top" secondItem="5Z1-OX-uEK" secondAttribute="bottom" id="DRQ-pQ-hOJ"/>
+                            <constraint firstItem="bqz-45-nf6" firstAttribute="top" secondItem="RzB-JV-D3g" secondAttribute="bottom" id="T27-5X-J5r"/>
+                            <constraint firstItem="RzB-JV-D3g" firstAttribute="trailing" secondItem="7D6-Wr-pdW" secondAttribute="trailing" id="caR-V0-Yyq"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1mq-F8-3e6"/>
                 </viewController>
@@ -793,7 +807,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="e6n-ae-EB1"/>
         <segue reference="7Ay-OE-o4Y"/>
-        <segue reference="qpH-UJ-X61"/>
+        <segue reference="eDv-B5-J45"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="7 hrs" width="500" height="1044"/>

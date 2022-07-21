@@ -21,6 +21,7 @@
 		BD699ED12885DFDE00F8181A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD699ECF2885DFDE00F8181A /* LaunchScreen.storyboard */; };
 		BD699ED92885E0B600F8181A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD699ED82885E0B600F8181A /* Launch Screen.storyboard */; };
 		BD699EFF2887318100F8181A /* Diet2 Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD699EFE2887318100F8181A /* Diet2 Scene.swift */; };
+		BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7A7ED2889893200CA11BE /* Sunscreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BD699ED22885DFDE00F8181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD699ED82885E0B600F8181A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BD699EFE2887318100F8181A /* Diet2 Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diet2 Scene.swift"; sourceTree = "<group>"; };
+		BDC7A7ED2889893200CA11BE /* Sunscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunscreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				BD699EC12885DFDC00F8181A /* AppDelegate.swift */,
 				BD699EC32885DFDC00F8181A /* SceneDelegate.swift */,
 				BD699EC72885DFDC00F8181A /* Main.storyboard */,
+				BDC7A7ED2889893200CA11BE /* Sunscreen.swift */,
 				BD699EC52885DFDC00F8181A /* HomePage.swift */,
 				BD31279028872257009988A8 /* Diet.swift */,
 				BD31278E2887221A009988A8 /* SleepHome.swift */,
@@ -172,6 +175,7 @@
 				BD699EC22885DFDC00F8181A /* AppDelegate.swift in Sources */,
 				BD31279128872257009988A8 /* Diet.swift in Sources */,
 				BD31278F2887221A009988A8 /* SleepHome.swift in Sources */,
+				BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */,
 				BD699EC42885DFDC00F8181A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
