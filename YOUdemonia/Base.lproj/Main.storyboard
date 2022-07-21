@@ -330,6 +330,21 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="77s-GU-E0Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shO-0R-DOL">
+                                <rect key="frame" x="143" y="741" width="245" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="click here for sleep tips and facts! ">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="strokeColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="j7C-2A-9Pi" kind="show" id="a7T-44-hvY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P2m-u8-t4j"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -339,6 +354,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCN-t0-4cj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-17.39130434782609" y="-669.64285714285711"/>
+        </scene>
+        <!--Sleep4-->
+        <scene sceneID="MuH-G0-4lp">
+            <objects>
+                <viewController title="Sleep4" id="j7C-2A-9Pi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2E-mp-giD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-kZ-BMu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="DIz-BQ-xKb"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="MeH-1b-pla"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aD0-h4-Tln"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="P9d-kZ-BMu" firstAttribute="leading" secondItem="aD0-h4-Tln" secondAttribute="leading" id="Jey-qy-4Wt"/>
+                            <constraint firstItem="P9d-kZ-BMu" firstAttribute="trailing" secondItem="aD0-h4-Tln" secondAttribute="trailing" id="a8U-M3-Y17"/>
+                            <constraint firstItem="P9d-kZ-BMu" firstAttribute="top" secondItem="d2E-mp-giD" secondAttribute="top" id="cEI-01-eBC"/>
+                            <constraint firstItem="P9d-kZ-BMu" firstAttribute="bottom" secondItem="aD0-h4-Tln" secondAttribute="bottom" id="jnm-aq-5cc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jVP-Mo-sk2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jt6-76-xvf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995.65217391304361" y="-670.3125"/>
         </scene>
         <!--HomePage-->
         <scene sceneID="tne-QT-ifu">
@@ -803,8 +847,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="7Et-6o-Zgj"/>
         <segue reference="e6n-ae-EB1"/>
-        <segue reference="7Ay-OE-o4Y"/>
+        <segue reference="77s-GU-E0Z"/>
         <segue reference="eDv-B5-J45"/>
     </inferredMetricsTieBreakers>
     <resources>
