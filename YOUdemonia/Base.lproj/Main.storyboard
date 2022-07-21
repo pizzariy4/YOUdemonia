@@ -604,9 +604,9 @@
         <!--sunScreen-->
         <scene sceneID="tJC-Y2-B2v">
             <objects>
-                <viewController title="sunScreen" id="JDR-n8-6fi" sceneMemberID="viewController">
+                <viewController title="sunScreen" id="JDR-n8-6fi" customClass="Sunscreen" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oyS-jF-SFx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunScreen" translatesAutoresizingMaskIntoConstraints="NO" id="0Io-2F-rSa">
@@ -635,43 +635,11 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="7Ay-OE-o4Y"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iXG-Bb-bp8">
-                                <rect key="frame" x="0.0" y="80" width="414" height="671"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Yu-nV-fwd">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="677"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHn-rG-5nQ">
-                                                <rect key="frame" x="186" y="8" width="42" height="86"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="LZ3-Iz-8sH"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="LAA-TA-uEO"/>
-                            </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="good bye" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oR4-RU-UDH">
-                                <rect key="frame" x="186" y="895" width="71" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7D6-Wr-pdW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="1Yu-nV-fwd" firstAttribute="width" secondItem="oyS-jF-SFx" secondAttribute="width" id="xhL-ad-ehw"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1mq-F8-3e6"/>
-                    <size key="freeformSize" width="414" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9v-Rx-zrH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
