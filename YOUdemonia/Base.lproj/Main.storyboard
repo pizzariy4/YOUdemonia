@@ -516,6 +516,24 @@ reduce stress and improve your mood
                                 <rect key="frame" x="-7" y="-27" width="429" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-it-y1q">
+                                <rect key="frame" x="45" y="335" width="321" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="LSi-X5-OCP" kind="show" id="O5i-PW-Wd0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6W4-3j-sGr">
+                                <rect key="frame" x="45" y="488" width="321" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="gma-J3-Ld3" kind="show" id="YrC-KK-cJp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iwN-7s-UEk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -525,6 +543,55 @@ reduce stress and improve your mood
                 <placeholder placeholderIdentifier="IBFirstResponder" id="poS-mb-1BO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="857.97101449275374" y="69.642857142857139"/>
+        </scene>
+        <!--Diet Male Age-->
+        <scene sceneID="48D-2I-IbZ">
+            <objects>
+                <viewController id="LSi-X5-OCP" customClass="dietMaleAge" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HVp-m0-VwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.44 AM" translatesAutoresizingMaskIntoConstraints="NO" id="bvE-FB-IDL">
+                                <rect key="frame" x="-106" y="-13" width="627" height="869"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evv-51-fiJ">
+                                <rect key="frame" x="44" y="280" width="329" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="Vhl-Cn-Ku2" kind="show" id="iao-zZ-Q9L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01X-z7-Sgw">
+                                <rect key="frame" x="44" y="435" width="329" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="ufx-dN-WNT" kind="show" id="hyQ-XF-ZGd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syF-5W-P4d">
+                                <rect key="frame" x="44" y="577" width="329" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="NwJ-u5-jYj" kind="show" id="KxF-nP-an8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Er7-qc-3qB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zax-cb-2rG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GcB-x2-dGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634.7826086956525" y="-404.46428571428572"/>
         </scene>
         <!--retinolAndRetinoidScreen-->
         <scene sceneID="UIS-ft-qkj">
@@ -838,18 +905,63 @@ reduce stress and improve your mood
             </objects>
             <point key="canvasLocation" x="1500.0000000000002" y="758.70535714285711"/>
         </scene>
+        <!--Diet Female Age-->
+        <scene sceneID="ryV-bs-kCP">
+            <objects>
+                <viewController id="gma-J3-Ld3" customClass="dietFemaleAge" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YTx-BW-AQt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.44 AM" translatesAutoresizingMaskIntoConstraints="NO" id="vpE-VQ-BEV">
+                                <rect key="frame" x="-45" y="-27" width="505" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71K-Yq-WbP">
+                                <rect key="frame" x="52" y="275" width="316" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="vd6-Kt-kxn" kind="show" id="OO8-eL-BwO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBQ-4a-bcH">
+                                <rect key="frame" x="52" y="448" width="316" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="YjZ-ai-quS" kind="show" id="nH4-Eg-j9E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUU-ob-aZg">
+                                <rect key="frame" x="52" y="577" width="316" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="Exj-ZW-guJ" kind="show" id="ILv-YV-759"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7bu-gW-zAf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="udV-hW-KYe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k80-Yu-Rsy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2634.7826086956525" y="340.84821428571428"/>
+        </scene>
         <!--Diet-->
         <scene sceneID="MuW-kF-AxG">
             <objects>
                 <viewController title="Diet" id="ufx-dN-WNT" customClass="Diet" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IaJ-gi-KB8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-Ll-qda">
-                                <rect key="frame" x="-122" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ovR-6y-V5L">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -869,7 +981,7 @@ reduce stress and improve your mood
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Op-ks5">
-                                <rect key="frame" x="159" y="593" width="97" height="34"/>
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -885,6 +997,10 @@ reduce stress and improve your mood
                                     <action selector="submitButton:" destination="ufx-dN-WNT" eventType="touchUpInside" id="W7S-zA-hk1"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-Ll-qda">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BIu-o7-2Lk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -905,7 +1021,7 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tcr-W6-Dd4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2864" y="-558"/>
+            <point key="canvasLocation" x="3806" y="-1005"/>
         </scene>
         <!--Diet2-->
         <scene sceneID="OZQ-y4-Vdd">
@@ -937,7 +1053,507 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clg-Hq-q3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3574" y="-558"/>
+            <point key="canvasLocation" x="4609" y="-1005"/>
+        </scene>
+        <!--dietFemaleNineToThirteen-->
+        <scene sceneID="hlx-GH-NYj">
+            <objects>
+                <viewController title="dietFemaleNineToThirteen" id="vd6-Kt-kxn" customClass="dietFemaleNineToThirteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yeC-9i-poJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="OaQ-jx-lMX">
+                                <rect key="frame" x="-122" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Gj-AR-Z61">
+                                <rect key="frame" x="159" y="338" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qS2-mz-jdh">
+                                <rect key="frame" x="158" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FcC-mn-3qa">
+                                <rect key="frame" x="158" y="497" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ch4-1i-Mod">
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4d5-sH-VI8">
+                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="fixed">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButton:" destination="vd6-Kt-kxn" eventType="touchUpInside" id="6mN-O4-K9v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sew-Qf-pkQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4d5-sH-VI8" firstAttribute="top" secondItem="Ch4-1i-Mod" secondAttribute="bottom" constant="136" id="ads-Ny-qzf"/>
+                            <constraint firstItem="4d5-sH-VI8" firstAttribute="centerX" secondItem="yeC-9i-poJ" secondAttribute="centerX" id="fgy-NH-AjB"/>
+                            <constraint firstItem="sew-Qf-pkQ" firstAttribute="bottom" secondItem="4d5-sH-VI8" secondAttribute="bottom" constant="85" id="tvI-ZJ-jlX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dRN-5V-iUI"/>
+                    <connections>
+                        <outlet property="fruitText" destination="9Gj-AR-Z61" id="sG9-AD-xGP"/>
+                        <outlet property="grainsTextField" destination="FcC-mn-3qa" id="jLO-Gh-BF7"/>
+                        <outlet property="proteinTextField" destination="Ch4-1i-Mod" id="gYh-Gp-sgo"/>
+                        <outlet property="vegTextField" destination="qS2-mz-jdh" id="HqD-Ip-5UR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8eJ-XG-FLm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4320" y="341"/>
+        </scene>
+        <!--dietSummaryFemaleNineToThirteen-->
+        <scene sceneID="ANy-Ig-bI6">
+            <objects>
+                <viewController title="dietSummaryFemaleNineToThirteen" id="4UY-2N-KT8" customClass="dietSummaryFemaleNineToThirteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3RI-Wd-9WN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-9X-wbi">
+                                <rect key="frame" x="57" y="334" width="300" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="iIs-JT-nVd">
+                                <rect key="frame" x="-108" y="0.0" width="630" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LmQ-Zw-1FH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WnJ-9d-cMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5026" y="341"/>
+        </scene>
+        <!--dietMaleNineteenToThirty-->
+        <scene sceneID="pko-oP-bGu">
+            <objects>
+                <viewController title="dietMaleNineteenToThirty" id="NwJ-u5-jYj" customClass="dietMaleNineteenToThirty" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cRy-X0-Ves">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-hS-PZu">
+                                <rect key="frame" x="159" y="338" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hIJ-FA-lpF">
+                                <rect key="frame" x="158" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p0i-vP-Dam">
+                                <rect key="frame" x="158" y="497" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q1Q-CP-8Yn">
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGr-W9-ZtK">
+                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="fixed">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButton:" destination="NwJ-u5-jYj" eventType="touchUpInside" id="U6q-jX-uhH"/>
+                                    <action selector="submitButtonMale19:" destination="NwJ-u5-jYj" eventType="touchUpInside" id="xZi-8F-g1v"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="IdX-vW-g2y">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yrs-Mv-CmQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oGr-W9-ZtK" firstAttribute="centerX" secondItem="cRy-X0-Ves" secondAttribute="centerX" id="cFb-wn-4q1"/>
+                            <constraint firstItem="oGr-W9-ZtK" firstAttribute="top" secondItem="q1Q-CP-8Yn" secondAttribute="bottom" constant="136" id="vv0-Sc-UJM"/>
+                            <constraint firstItem="yrs-Mv-CmQ" firstAttribute="bottom" secondItem="oGr-W9-ZtK" secondAttribute="bottom" constant="85" id="zOt-u1-MIY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eEU-5d-HTF"/>
+                    <connections>
+                        <outlet property="male19FruitText" destination="Mhb-hS-PZu" id="bLl-em-g7g"/>
+                        <outlet property="male19GrainsText" destination="p0i-vP-Dam" id="6kX-Ev-LtS"/>
+                        <outlet property="male19ProteinText" destination="q1Q-CP-8Yn" id="5iK-I3-WSL"/>
+                        <outlet property="male19VegText" destination="hIJ-FA-lpF" id="e5W-Qj-4Ki"/>
+                        <segue destination="k3h-Q9-Is0" kind="show" identifier="male19" id="Irp-JJ-X85"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CIG-3C-SEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3806" y="-315"/>
+        </scene>
+        <!--dietSummaryMaleNineteenToThirty-->
+        <scene sceneID="ghz-ED-MIA">
+            <objects>
+                <viewController title="dietSummaryMaleNineteenToThirty" id="k3h-Q9-Is0" customClass="dietSummaryMaleNineteenToThirty" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iIz-IY-YPm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-R0-wTi">
+                                <rect key="frame" x="-160" y="-10" width="735" height="862"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWl-5l-nJB">
+                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Iii-9A-sc8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dSV-Sd-QZ2"/>
+                    <connections>
+                        <outlet property="DietSummary" destination="CWl-5l-nJB" id="3IU-DA-Ik9"/>
+                        <outlet property="dietSummaryMale19" destination="CWl-5l-nJB" id="Y4k-BH-ya3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Cv-gk-q6X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4609" y="-315"/>
+        </scene>
+        <!--dietMaleNineToThirteen-->
+        <scene sceneID="F7h-n9-Okt">
+            <objects>
+                <viewController title="dietMaleNineToThirteen" id="Vhl-Cn-Ku2" customClass="dietMaleNineToThirteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Huw-iV-EuV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KGg-jb-3Ne">
+                                <rect key="frame" x="159" y="338" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XLb-Qx-5hg">
+                                <rect key="frame" x="158" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIx-3j-XFX">
+                                <rect key="frame" x="158" y="497" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDn-Oi-tiK">
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F3-xd-IUz">
+                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="fixed">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButtonMale9:" destination="Vhl-Cn-Ku2" eventType="touchUpInside" id="NrC-6B-ecy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gnI-BF-IdV">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="isk-Nw-0yP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="isk-Nw-0yP" firstAttribute="bottom" secondItem="8F3-xd-IUz" secondAttribute="bottom" constant="85" id="C7k-3T-HZl"/>
+                            <constraint firstItem="8F3-xd-IUz" firstAttribute="centerX" secondItem="Huw-iV-EuV" secondAttribute="centerX" id="IOu-MU-Eu2"/>
+                            <constraint firstItem="8F3-xd-IUz" firstAttribute="top" secondItem="NDn-Oi-tiK" secondAttribute="bottom" constant="136" id="bka-LM-cUb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kFm-UM-ZRh"/>
+                    <connections>
+                        <outlet property="male9FruitText" destination="KGg-jb-3Ne" id="cb4-s9-zEN"/>
+                        <outlet property="male9GrainsText" destination="KIx-3j-XFX" id="WsT-Po-eBs"/>
+                        <outlet property="male9ProteinText" destination="NDn-Oi-tiK" id="kJw-yn-4Oa"/>
+                        <outlet property="male9VegText" destination="XLb-Qx-5hg" id="L1a-QT-pkS"/>
+                        <segue destination="9ky-lr-eJk" kind="show" identifier="dietMaleNineToThirteen" id="5ax-Ve-zBu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hxu-L7-6TA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2190" y="-1170"/>
+        </scene>
+        <!--dietSummaryMaleNineToThirteen-->
+        <scene sceneID="2IP-6t-du5">
+            <objects>
+                <viewController title="dietSummaryMaleNineToThirteen" id="9ky-lr-eJk" customClass="dietSummaryMaleNineToThirteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="56U-4e-0EA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="tOh-C6-E59">
+                                <rect key="frame" x="-160" y="-10" width="735" height="862"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlH-03-dDx">
+                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fnS-M4-TIW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FfB-44-xvH"/>
+                    <connections>
+                        <outlet property="dietSummaryLabelMale9" destination="rlH-03-dDx" id="Dbx-gi-YIr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mg6-8l-7Zh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2904" y="-1171"/>
+        </scene>
+        <!--dietFemaleFourteenToEighteen-->
+        <scene sceneID="7MD-WS-pcK">
+            <objects>
+                <viewController title="dietFemaleFourteenToEighteen" id="YjZ-ai-quS" customClass="dietFemaleFourteenToEighteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FOl-Is-Ip6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egw-Gn-Ia9">
+                                <rect key="frame" x="159" y="338" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9dj-2w-XSx">
+                                <rect key="frame" x="158" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="THI-tG-hT5">
+                                <rect key="frame" x="158" y="497" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-VO-xyh">
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ou-ZA-9Ts">
+                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="fixed">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButton:" destination="YjZ-ai-quS" eventType="touchUpInside" id="2pq-xj-rD2"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Z01-oH-ohv">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kwe-g4-rAY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2ou-ZA-9Ts" firstAttribute="top" secondItem="aI4-VO-xyh" secondAttribute="bottom" constant="136" id="c1c-GH-A8T"/>
+                            <constraint firstItem="2ou-ZA-9Ts" firstAttribute="centerX" secondItem="FOl-Is-Ip6" secondAttribute="centerX" id="y65-DM-f5c"/>
+                            <constraint firstItem="kwe-g4-rAY" firstAttribute="bottom" secondItem="2ou-ZA-9Ts" secondAttribute="bottom" constant="85" id="z3Y-Rm-52d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="p4C-ji-6Ag"/>
+                    <connections>
+                        <outlet property="fruitText" destination="egw-Gn-Ia9" id="ndA-nE-4L4"/>
+                        <outlet property="grainsTextField" destination="THI-tG-hT5" id="D92-Hc-20z"/>
+                        <outlet property="proteinTextField" destination="aI4-VO-xyh" id="DGx-QX-tOj"/>
+                        <outlet property="vegTextField" destination="9dj-2w-XSx" id="h6m-H8-7RP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1la-aJ-jRx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3806" y="1064"/>
+        </scene>
+        <!--dietSummaryFemaleFourteenToEighteen-->
+        <scene sceneID="PXU-DM-TDk">
+            <objects>
+                <viewController title="dietSummaryFemaleFourteenToEighteen" id="hbz-Ie-hHm" customClass="dietSummaryFemaleFourteenToEighteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ZB-d0-xha">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="82F-ad-zC6">
+                                <rect key="frame" x="-160" y="-10" width="735" height="862"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9CE-u7-Tg5">
+                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jOn-da-5lr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SZT-KZ-BXB"/>
+                    <connections>
+                        <outlet property="DietSummary" destination="9CE-u7-Tg5" id="KqA-bX-iSn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YpQ-0I-W2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4609" y="1063"/>
+        </scene>
+        <!--Diet-->
+        <scene sceneID="uNo-2c-tYF">
+            <objects>
+                <viewController title="Diet" id="Exj-ZW-guJ" customClass="dietFemaleNineteenToThirty" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MGQ-oN-hYu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ki-GC-iUF">
+                                <rect key="frame" x="159" y="338" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hki-AP-fn4">
+                                <rect key="frame" x="158" y="404" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4bj-Av-tWI">
+                                <rect key="frame" x="158" y="497" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-o9-Eli">
+                                <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYz-Sh-Flf">
+                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="fixed">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="submitButton:" destination="Exj-ZW-guJ" eventType="touchUpInside" id="j3M-0O-4if"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="V8d-Ci-ZpZ">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nm4-xZ-60r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vYz-Sh-Flf" firstAttribute="centerX" secondItem="MGQ-oN-hYu" secondAttribute="centerX" id="Abw-pZ-ZTE"/>
+                            <constraint firstItem="vYz-Sh-Flf" firstAttribute="top" secondItem="VhK-o9-Eli" secondAttribute="bottom" constant="136" id="CV9-oc-O5f"/>
+                            <constraint firstItem="nm4-xZ-60r" firstAttribute="bottom" secondItem="vYz-Sh-Flf" secondAttribute="bottom" constant="85" id="Kor-gv-YI5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0do-9h-GDS"/>
+                    <connections>
+                        <outlet property="fruitText" destination="2ki-GC-iUF" id="Q2q-Ua-txz"/>
+                        <outlet property="grainsTextField" destination="4bj-Av-tWI" id="oZp-Iu-rkY"/>
+                        <outlet property="proteinTextField" destination="VhK-o9-Eli" id="LPg-t8-QXv"/>
+                        <outlet property="vegTextField" destination="hki-AP-fn4" id="UVy-c8-8aA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvC-7U-rlk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2328" y="1502"/>
+        </scene>
+        <!--Diet2-->
+        <scene sceneID="hz8-bt-y0D">
+            <objects>
+                <viewController title="Diet2" id="YVZ-mB-tm3" customClass="dietSummaryFemaleNineteenToThirty" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vdh-3w-jgP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="FIG-7H-fmy">
+                                <rect key="frame" x="-160" y="-10" width="735" height="862"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y63-4Q-b9w">
+                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CkW-k7-zGY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="n3s-FN-Lv5"/>
+                    <connections>
+                        <outlet property="DietSummary" destination="y63-4Q-b9w" id="iUl-Gd-1st"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3G-VO-9y7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3055" y="1501"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -954,6 +1570,7 @@ reduce stress and improve your mood
         <image name="Screen Shot 2022-07-19 at 1.59.15 PM" width="492" height="1038"/>
         <image name="Screen Shot 2022-07-21 at 10.53.53 AM" width="324" height="684"/>
         <image name="Screen Shot 2022-07-21 at 11.35.11 AM" width="328" height="690"/>
+        <image name="Screen Shot 2022-07-21 at 11.35.44 AM" width="328" height="690"/>
         <image name="Screen Shot 2022-07-21 at 11.35.57 AM" width="324" height="686"/>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="cleanserScreen" width="524" height="971"/>

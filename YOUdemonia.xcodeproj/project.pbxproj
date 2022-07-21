@@ -22,6 +22,18 @@
 		BD699ED92885E0B600F8181A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD699ED82885E0B600F8181A /* Launch Screen.storyboard */; };
 		BD699EFF2887318100F8181A /* Diet2 Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD699EFE2887318100F8181A /* Diet2 Scene.swift */; };
 		BD6AA8932889AF72005E6B40 /* dietQuestionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */; };
+		BD6AA8952889BECB005E6B40 /* dietMaleAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8942889BECB005E6B40 /* dietMaleAge.swift */; };
+		BD6AA8972889BF4B005E6B40 /* dietFemaleAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8962889BF4B005E6B40 /* dietFemaleAge.swift */; };
+		BD6AA8992889C095005E6B40 /* dietFemaleNineToThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8982889C095005E6B40 /* dietFemaleNineToThirteen.swift */; };
+		BD6AA89B2889C161005E6B40 /* dietSummaryFemaleNineToThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA89A2889C161005E6B40 /* dietSummaryFemaleNineToThirteen.swift */; };
+		BD6AA89D2889C235005E6B40 /* dietMaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA89C2889C235005E6B40 /* dietMaleNineteenToThirty.swift */; };
+		BD6AA89F2889C2C4005E6B40 /* dietSummaryMaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA89E2889C2C4005E6B40 /* dietSummaryMaleNineteenToThirty.swift */; };
+		BD6AA8A12889C346005E6B40 /* dietMaleNineToThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A02889C346005E6B40 /* dietMaleNineToThirteen.swift */; };
+		BD6AA8A32889C3B8005E6B40 /* dietSummaryMaleNineToThirteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A22889C3B8005E6B40 /* dietSummaryMaleNineToThirteen.swift */; };
+		BD6AA8A52889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A42889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift */; };
+		BD6AA8A72889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */; };
+		BD6AA8A92889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */; };
+		BD6AA8AB2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */; };
 		BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7A7ED2889893200CA11BE /* Sunscreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +55,18 @@
 		BD699ED82885E0B600F8181A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BD699EFE2887318100F8181A /* Diet2 Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diet2 Scene.swift"; sourceTree = "<group>"; };
 		BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietQuestionOne.swift; sourceTree = "<group>"; };
+		BD6AA8942889BECB005E6B40 /* dietMaleAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietMaleAge.swift; path = YOUdemonia/dietMaleAge.swift; sourceTree = "<group>"; };
+		BD6AA8962889BF4B005E6B40 /* dietFemaleAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietFemaleAge.swift; sourceTree = "<group>"; };
+		BD6AA8982889C095005E6B40 /* dietFemaleNineToThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietFemaleNineToThirteen.swift; path = YOUdemonia/dietFemaleNineToThirteen.swift; sourceTree = "<group>"; };
+		BD6AA89A2889C161005E6B40 /* dietSummaryFemaleNineToThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietSummaryFemaleNineToThirteen.swift; path = YOUdemonia/dietSummaryFemaleNineToThirteen.swift; sourceTree = "<group>"; };
+		BD6AA89C2889C235005E6B40 /* dietMaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietMaleNineteenToThirty.swift; path = YOUdemonia/dietMaleNineteenToThirty.swift; sourceTree = "<group>"; };
+		BD6AA89E2889C2C4005E6B40 /* dietSummaryMaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietSummaryMaleNineteenToThirty.swift; path = YOUdemonia/dietSummaryMaleNineteenToThirty.swift; sourceTree = "<group>"; };
+		BD6AA8A02889C346005E6B40 /* dietMaleNineToThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietMaleNineToThirteen.swift; sourceTree = "<group>"; };
+		BD6AA8A22889C3B8005E6B40 /* dietSummaryMaleNineToThirteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietSummaryMaleNineToThirteen.swift; path = YOUdemonia/dietSummaryMaleNineToThirteen.swift; sourceTree = "<group>"; };
+		BD6AA8A42889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietFemaleFourteenToEighteen.swift; path = YOUdemonia/dietFemaleFourteenToEighteen.swift; sourceTree = "<group>"; };
+		BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietSummaryFemaleFourteenToEighteen.swift; path = YOUdemonia/dietSummaryFemaleFourteenToEighteen.swift; sourceTree = "<group>"; };
+		BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietFemaleNineteenToThirty.swift; path = YOUdemonia/dietFemaleNineteenToThirty.swift; sourceTree = "<group>"; };
+		BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietSummaryFemaleNineteenToThirty.swift; sourceTree = "<group>"; };
 		BDC7A7ED2889893200CA11BE /* Sunscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunscreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +84,16 @@
 		BD699EB52885DFDC00F8181A = {
 			isa = PBXGroup;
 			children = (
+				BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */,
+				BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */,
+				BD6AA8A42889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift */,
+				BD6AA8A22889C3B8005E6B40 /* dietSummaryMaleNineToThirteen.swift */,
+				BD6AA89E2889C2C4005E6B40 /* dietSummaryMaleNineteenToThirty.swift */,
+				BD6AA89C2889C235005E6B40 /* dietMaleNineteenToThirty.swift */,
+				BD6AA89A2889C161005E6B40 /* dietSummaryFemaleNineToThirteen.swift */,
+				BD6AA8982889C095005E6B40 /* dietFemaleNineToThirteen.swift */,
+				BD6AA8962889BF4B005E6B40 /* dietFemaleAge.swift */,
+				BD6AA8942889BECB005E6B40 /* dietMaleAge.swift */,
 				BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */,
 				BD699EC02885DFDC00F8181A /* YOUdemonia */,
 				BD699EBF2885DFDC00F8181A /* Products */,
@@ -77,10 +111,12 @@
 		BD699EC02885DFDC00F8181A /* YOUdemonia */ = {
 			isa = PBXGroup;
 			children = (
+				BD6AA8A02889C346005E6B40 /* dietMaleNineToThirteen.swift */,
 				BD699EFE2887318100F8181A /* Diet2 Scene.swift */,
 				BD699EC12885DFDC00F8181A /* AppDelegate.swift */,
 				BD699EC32885DFDC00F8181A /* SceneDelegate.swift */,
 				BD699EC72885DFDC00F8181A /* Main.storyboard */,
+				BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */,
 				BDC7A7ED2889893200CA11BE /* Sunscreen.swift */,
 				BD699EC52885DFDC00F8181A /* HomePage.swift */,
 				BD31279028872257009988A8 /* Diet.swift */,
@@ -170,16 +206,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD31279728872B7F009988A8 /* Sleep3.swift in Sources */,
+				BD6AA8A52889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift in Sources */,
 				BD699EC62885DFDC00F8181A /* HomePage.swift in Sources */,
 				BD699ECC2885DFDC00F8181A /* YOUdemonia.xcdatamodeld in Sources */,
 				BD31279528872B68009988A8 /* Sleep2.swift in Sources */,
+				BD6AA8952889BECB005E6B40 /* dietMaleAge.swift in Sources */,
+				BD6AA8A32889C3B8005E6B40 /* dietSummaryMaleNineToThirteen.swift in Sources */,
+				BD6AA89D2889C235005E6B40 /* dietMaleNineteenToThirty.swift in Sources */,
+				BD6AA89F2889C2C4005E6B40 /* dietSummaryMaleNineteenToThirty.swift in Sources */,
 				BD6AA8932889AF72005E6B40 /* dietQuestionOne.swift in Sources */,
+				BD6AA8992889C095005E6B40 /* dietFemaleNineToThirteen.swift in Sources */,
 				BD312793288726CE009988A8 /* Sleep1.swift in Sources */,
+				BD6AA8A72889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift in Sources */,
+				BD6AA8AB2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift in Sources */,
 				BD699EFF2887318100F8181A /* Diet2 Scene.swift in Sources */,
+				BD6AA8A92889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift in Sources */,
 				BD699EC22885DFDC00F8181A /* AppDelegate.swift in Sources */,
+				BD6AA8972889BF4B005E6B40 /* dietFemaleAge.swift in Sources */,
+				BD6AA8A12889C346005E6B40 /* dietMaleNineToThirteen.swift in Sources */,
 				BD31279128872257009988A8 /* Diet.swift in Sources */,
 				BD31278F2887221A009988A8 /* SleepHome.swift in Sources */,
 				BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */,
+				BD6AA89B2889C161005E6B40 /* dietSummaryFemaleNineToThirteen.swift in Sources */,
 				BD699EC42885DFDC00F8181A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
