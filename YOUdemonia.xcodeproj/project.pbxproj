@@ -21,6 +21,7 @@
 		BD699ED12885DFDE00F8181A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD699ECF2885DFDE00F8181A /* LaunchScreen.storyboard */; };
 		BD699ED92885E0B600F8181A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD699ED82885E0B600F8181A /* Launch Screen.storyboard */; };
 		BD699EFF2887318100F8181A /* Diet2 Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD699EFE2887318100F8181A /* Diet2 Scene.swift */; };
+		BD6AA8932889AF72005E6B40 /* dietQuestionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */; };
 		BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7A7ED2889893200CA11BE /* Sunscreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		BD699ED22885DFDE00F8181A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD699ED82885E0B600F8181A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BD699EFE2887318100F8181A /* Diet2 Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diet2 Scene.swift"; sourceTree = "<group>"; };
+		BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietQuestionOne.swift; sourceTree = "<group>"; };
 		BDC7A7ED2889893200CA11BE /* Sunscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunscreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		BD699EB52885DFDC00F8181A = {
 			isa = PBXGroup;
 			children = (
+				BD6AA8922889AF72005E6B40 /* dietQuestionOne.swift */,
 				BD699EC02885DFDC00F8181A /* YOUdemonia */,
 				BD699EBF2885DFDC00F8181A /* Products */,
 			);
@@ -170,6 +173,7 @@
 				BD699EC62885DFDC00F8181A /* HomePage.swift in Sources */,
 				BD699ECC2885DFDC00F8181A /* YOUdemonia.xcdatamodeld in Sources */,
 				BD31279528872B68009988A8 /* Sleep2.swift in Sources */,
+				BD6AA8932889AF72005E6B40 /* dietQuestionOne.swift in Sources */,
 				BD312793288726CE009988A8 /* Sleep1.swift in Sources */,
 				BD699EFF2887318100F8181A /* Diet2 Scene.swift in Sources */,
 				BD699EC22885DFDC00F8181A /* AppDelegate.swift in Sources */,
