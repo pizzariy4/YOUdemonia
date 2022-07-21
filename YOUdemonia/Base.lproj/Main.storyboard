@@ -363,22 +363,93 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-kZ-BMu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9d-kZ-BMu">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="DIz-BQ-xKb"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="MeH-1b-pla"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n3X-ou-bmy">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="having trouble sleeping?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61X-6w-Fj0">
+                                                <rect key="frame" x="8" y="178" width="394" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxF-oq-bwR">
+                                                <rect key="frame" x="18" y="225" width="389" height="258"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">✧ have a set bedtime / sleep schedule
+✧ white-noise
+✧ exercise
+✧ avoid looking at your phone (or any blue-light emitting screen) at least 30 minutes before bed</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="benefits of good sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN3-Ic-VHl">
+                                                <rect key="frame" x="12" y="532" width="355" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNd-C0-265">
+                                                <rect key="frame" x="23" y="574" width="379" height="397"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">✧ get sick less often
+✧ stay at a healthy weight
+✧ lower your risk for serious health problems, like diabetes and heart disease 
+reduce stress and improve your mood
+✧ think more clearly and do better in school and at work
+✧ get along better with people
+</string>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sleeping music and white noise" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElQ-do-uFm">
+                                                <rect key="frame" x="12" y="979" width="359" height="79"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="32"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sleeping tips  &amp; facts" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDN-ZF-mbv">
+                                                <rect key="frame" x="37" y="8" width="309" height="131"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="55"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.93301081299470034" green="0.94294824548221989" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="LIV-CE-RYe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="n3X-ou-bmy" secondAttribute="bottom" id="Hcw-vj-9bB"/>
+                                    <constraint firstItem="n3X-ou-bmy" firstAttribute="leading" secondItem="P9d-kZ-BMu" secondAttribute="leading" id="YXQ-AI-QAg"/>
+                                    <constraint firstAttribute="trailing" secondItem="n3X-ou-bmy" secondAttribute="trailing" id="ZFz-RQ-2d1"/>
+                                    <constraint firstItem="n3X-ou-bmy" firstAttribute="top" secondItem="P9d-kZ-BMu" secondAttribute="top" id="d0F-AX-ZvN"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aD0-h4-Tln"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="n3X-ou-bmy" firstAttribute="width" secondItem="d2E-mp-giD" secondAttribute="width" id="99O-Wd-ixs"/>
                             <constraint firstItem="P9d-kZ-BMu" firstAttribute="leading" secondItem="aD0-h4-Tln" secondAttribute="leading" id="Jey-qy-4Wt"/>
+                            <constraint firstItem="n3X-ou-bmy" firstAttribute="height" secondItem="d2E-mp-giD" secondAttribute="height" multiplier="1.78147" id="QZ5-lB-hKU"/>
                             <constraint firstItem="P9d-kZ-BMu" firstAttribute="trailing" secondItem="aD0-h4-Tln" secondAttribute="trailing" id="a8U-M3-Y17"/>
                             <constraint firstItem="P9d-kZ-BMu" firstAttribute="top" secondItem="d2E-mp-giD" secondAttribute="top" id="cEI-01-eBC"/>
                             <constraint firstItem="P9d-kZ-BMu" firstAttribute="bottom" secondItem="aD0-h4-Tln" secondAttribute="bottom" id="jnm-aq-5cc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jVP-Mo-sk2"/>
+                    <size key="freeformSize" width="414" height="896"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jt6-76-xvf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
