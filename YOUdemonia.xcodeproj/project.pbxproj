@@ -34,6 +34,8 @@
 		BD6AA8A72889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */; };
 		BD6AA8A92889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */; };
 		BD6AA8AB2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */; };
+		BD8D82B3288AF25300232544 /* SleepScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D82B2288AF25300232544 /* SleepScrollView.swift */; };
+		BD8D82B5288AF52000232544 /* ExercisePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D82B4288AF52000232544 /* ExercisePage.swift */; };
 		BDC7A7EE2889893200CA11BE /* Sunscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7A7ED2889893200CA11BE /* Sunscreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietSummaryFemaleFourteenToEighteen.swift; path = YOUdemonia/dietSummaryFemaleFourteenToEighteen.swift; sourceTree = "<group>"; };
 		BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = dietFemaleNineteenToThirty.swift; path = YOUdemonia/dietFemaleNineteenToThirty.swift; sourceTree = "<group>"; };
 		BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dietSummaryFemaleNineteenToThirty.swift; sourceTree = "<group>"; };
+		BD8D82B2288AF25300232544 /* SleepScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScrollView.swift; sourceTree = "<group>"; };
+		BD8D82B4288AF52000232544 /* ExercisePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePage.swift; sourceTree = "<group>"; };
 		BDC7A7ED2889893200CA11BE /* Sunscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunscreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,7 @@
 		BD699EB52885DFDC00F8181A = {
 			isa = PBXGroup;
 			children = (
+				BD8D82B4288AF52000232544 /* ExercisePage.swift */,
 				BD6AA8A82889C5D2005E6B40 /* dietFemaleNineteenToThirty.swift */,
 				BD6AA8A62889C4BE005E6B40 /* dietSummaryFemaleFourteenToEighteen.swift */,
 				BD6AA8A42889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift */,
@@ -116,6 +121,7 @@
 				BD699EC12885DFDC00F8181A /* AppDelegate.swift */,
 				BD699EC32885DFDC00F8181A /* SceneDelegate.swift */,
 				BD699EC72885DFDC00F8181A /* Main.storyboard */,
+				BD8D82B2288AF25300232544 /* SleepScrollView.swift */,
 				BD6AA8AA2889C643005E6B40 /* dietSummaryFemaleNineteenToThirty.swift */,
 				BDC7A7ED2889893200CA11BE /* Sunscreen.swift */,
 				BD699EC52885DFDC00F8181A /* HomePage.swift */,
@@ -205,7 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8D82B5288AF52000232544 /* ExercisePage.swift in Sources */,
 				BD31279728872B7F009988A8 /* Sleep3.swift in Sources */,
+				BD8D82B3288AF25300232544 /* SleepScrollView.swift in Sources */,
 				BD6AA8A52889C46C005E6B40 /* dietFemaleFourteenToEighteen.swift in Sources */,
 				BD699EC62885DFDC00F8181A /* HomePage.swift in Sources */,
 				BD699ECC2885DFDC00F8181A /* YOUdemonia.xcdatamodeld in Sources */,
