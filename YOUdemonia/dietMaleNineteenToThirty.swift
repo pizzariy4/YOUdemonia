@@ -7,11 +7,6 @@
 
 import UIKit
 
-public var userFruitInputMale19 = " " //storing the user’s text input from the fruit text field, global var
-public var userVegInputMale19 = " "
-public var userGrainsInputMale19 = " "
-public var userProteinInputMale19 = " "
-
 class dietMaleNineteenToThirty: UIViewController {
 
     @IBOutlet weak var male19FruitText: UITextField!
@@ -25,16 +20,16 @@ class dietMaleNineteenToThirty: UIViewController {
     
     @IBAction func submitButtonMale19(_ sender: Any) {
         if let fruitTextField = male19FruitText.text {
-                  userFruitInputMale19 = fruitTextField
+                  userFruitInput = fruitTextField
                   }
               if let vegTextField = male19VegText.text {
-                  userVegInputMale19 = vegTextField
+                  userVegInput = vegTextField
                   }
               if let grainsTextField = male19GrainsText.text { //changed this from fruitTextField to grains in night; could have been the issue
-                  userGrainsInputMale19 = grainsTextField
+                  userGrainsInput = grainsTextField
                   }
               if let proteinTextField = male19GrainsText.text {
-                  userProteinInputMale19 = proteinTextField
+                  userProteinInput = proteinTextField
                   }
         performSegue(withIdentifier: "male19", sender: self)
     }

@@ -12,7 +12,7 @@ class dietSummaryMaleNineteenToThirty: UIViewController {
     @IBOutlet weak var dietSummaryMale19: UILabel!
 
     override func viewDidLoad() {
-        var enoughFruit = ""//using these vars to store diff values for the final statement. Each var will go through a conditional statement that checks whether the user ate enough of the category that day.
+        var enoughFruit = " "//using these vars to store diff values for the final statement. Each var will go through a conditional statement that checks whether the user ate enough of the category that day.
         var enoughVeg = " "
         var enoughGrains = " "
         var enoughProtein = " "
@@ -46,7 +46,7 @@ class dietSummaryMaleNineteenToThirty: UIViewController {
         }
 
         super.viewDidLoad()
-
+        dietSummaryMale19.text = "1. \(enoughFruit)\n2. \(enoughVeg)\n3. \(enoughGrains)\n4. \(enoughProtein)"
         // Do any additional setup after loading the view.
     }
     

@@ -1337,6 +1337,10 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="dr8-ty-okT">
+                                <rect key="frame" x="-9" y="-11" width="430" height="864"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ovR-6y-V5L">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1355,13 +1359,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Op-ks5">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4OL-Op-ks5">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgp-Ar-wr4">
-                                <rect key="frame" x="99" y="680" width="216" height="97"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgp-Ar-wr4">
+                                <rect key="frame" x="99" y="647" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1372,18 +1378,9 @@ reduce stress and improve your mood
                                     <action selector="submitButton:" destination="ufx-dN-WNT" eventType="touchUpInside" id="W7S-zA-hk1"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-Ll-qda">
-                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BIu-o7-2Lk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="BIu-o7-2Lk" firstAttribute="bottom" secondItem="kgp-Ar-wr4" secondAttribute="bottom" constant="85" id="27p-lN-VUz"/>
-                            <constraint firstItem="kgp-Ar-wr4" firstAttribute="top" secondItem="4OL-Op-ks5" secondAttribute="bottom" constant="136" id="4dJ-9i-jeI"/>
-                            <constraint firstItem="kgp-Ar-wr4" firstAttribute="centerX" secondItem="IaJ-gi-KB8" secondAttribute="centerX" id="mlW-9Y-SBI"/>
-                        </constraints>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ldK-KI-LHR"/>
                     <connections>
@@ -1396,7 +1393,7 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tcr-W6-Dd4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3806" y="-1005"/>
+            <point key="canvasLocation" x="3805.7971014492755" y="-1005.1339285714286"/>
         </scene>
         <!--Diet2-->
         <scene sceneID="OZQ-y4-Vdd">
@@ -1411,12 +1408,24 @@ reduce stress and improve your mood
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzT-Nz-guS">
-                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <rect key="frame" x="69" y="286" width="300" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfV-L2-AAU">
+                                <rect key="frame" x="23" y="775" width="35" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="z6f-Lt-NoO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ayz-W4-G9q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1428,7 +1437,7 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clg-Hq-q3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4609" y="-1005"/>
+            <point key="canvasLocation" x="4607.2463768115949" y="-1005.1339285714286"/>
         </scene>
         <!--dietFemaleNineToThirteen-->
         <scene sceneID="hlx-GH-NYj">
@@ -1460,13 +1469,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ch4-1i-Mod">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ch4-1i-Mod">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4d5-sH-VI8">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4d5-sH-VI8">
                                 <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1474,24 +1485,20 @@ reduce stress and improve your mood
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="submitButton:" destination="vd6-Kt-kxn" eventType="touchUpInside" id="6mN-O4-K9v"/>
+                                    <action selector="fem9SubmitButton:" destination="vd6-Kt-kxn" eventType="touchUpInside" id="LEV-KM-1hl"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sew-Qf-pkQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="4d5-sH-VI8" firstAttribute="top" secondItem="Ch4-1i-Mod" secondAttribute="bottom" constant="136" id="ads-Ny-qzf"/>
-                            <constraint firstItem="4d5-sH-VI8" firstAttribute="centerX" secondItem="yeC-9i-poJ" secondAttribute="centerX" id="fgy-NH-AjB"/>
-                            <constraint firstItem="sew-Qf-pkQ" firstAttribute="bottom" secondItem="4d5-sH-VI8" secondAttribute="bottom" constant="85" id="tvI-ZJ-jlX"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dRN-5V-iUI"/>
                     <connections>
-                        <outlet property="fruitText" destination="9Gj-AR-Z61" id="sG9-AD-xGP"/>
-                        <outlet property="grainsTextField" destination="FcC-mn-3qa" id="jLO-Gh-BF7"/>
-                        <outlet property="proteinTextField" destination="Ch4-1i-Mod" id="gYh-Gp-sgo"/>
-                        <outlet property="vegTextField" destination="qS2-mz-jdh" id="HqD-Ip-5UR"/>
+                        <outlet property="fem9FruitText" destination="9Gj-AR-Z61" id="uz1-p3-oB3"/>
+                        <outlet property="fem9GrainsText" destination="FcC-mn-3qa" id="OCT-yw-pim"/>
+                        <outlet property="fem9ProteinText" destination="Ch4-1i-Mod" id="pSq-wz-KJm"/>
+                        <outlet property="fem9VegText" destination="qS2-mz-jdh" id="RMh-3A-NtI"/>
+                        <segue destination="4UY-2N-KT8" kind="show" identifier="fem9" id="cWe-Ws-hJt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8eJ-XG-FLm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1503,28 +1510,44 @@ reduce stress and improve your mood
             <objects>
                 <viewController title="dietSummaryFemaleNineToThirteen" id="4UY-2N-KT8" customClass="dietSummaryFemaleNineToThirteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3RI-Wd-9WN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-9X-wbi">
-                                <rect key="frame" x="57" y="334" width="300" height="297"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="iIs-JT-nVd">
+                                <rect key="frame" x="-108" y="-27" width="630" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGf-9X-wbi">
+                                <rect key="frame" x="57" y="334" width="300" height="396"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="iIs-JT-nVd">
-                                <rect key="frame" x="-108" y="0.0" width="630" height="896"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJO-Ah-sTq">
+                                <rect key="frame" x="20" y="778" width="43" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="maC-K7-GuB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LmQ-Zw-1FH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="uSM-hk-gbK"/>
+                    <connections>
+                        <outlet property="fem9DietSummary" destination="uGf-9X-wbi" id="YmG-a9-L5u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnJ-9d-cMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5026" y="341"/>
+            <point key="canvasLocation" x="5024.6376811594209" y="340.84821428571428"/>
         </scene>
         <!--dietMaleNineteenToThirty-->
         <scene sceneID="pko-oP-bGu">
@@ -1534,6 +1557,10 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="IdX-vW-g2y">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-hS-PZu">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1552,13 +1579,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q1Q-CP-8Yn">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q1Q-CP-8Yn">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGr-W9-ZtK">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGr-W9-ZtK">
                                 <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1566,22 +1595,12 @@ reduce stress and improve your mood
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="submitButton:" destination="NwJ-u5-jYj" eventType="touchUpInside" id="U6q-jX-uhH"/>
-                                    <action selector="submitButtonMale19:" destination="NwJ-u5-jYj" eventType="touchUpInside" id="xZi-8F-g1v"/>
+                                    <action selector="submitButtonMale19:" destination="NwJ-u5-jYj" eventType="touchUpInside" id="hZG-2g-FZs"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="IdX-vW-g2y">
-                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yrs-Mv-CmQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="oGr-W9-ZtK" firstAttribute="centerX" secondItem="cRy-X0-Ves" secondAttribute="centerX" id="cFb-wn-4q1"/>
-                            <constraint firstItem="oGr-W9-ZtK" firstAttribute="top" secondItem="q1Q-CP-8Yn" secondAttribute="bottom" constant="136" id="vv0-Sc-UJM"/>
-                            <constraint firstItem="yrs-Mv-CmQ" firstAttribute="bottom" secondItem="oGr-W9-ZtK" secondAttribute="bottom" constant="85" id="zOt-u1-MIY"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="eEU-5d-HTF"/>
                     <connections>
@@ -1589,12 +1608,12 @@ reduce stress and improve your mood
                         <outlet property="male19GrainsText" destination="p0i-vP-Dam" id="6kX-Ev-LtS"/>
                         <outlet property="male19ProteinText" destination="q1Q-CP-8Yn" id="5iK-I3-WSL"/>
                         <outlet property="male19VegText" destination="hIJ-FA-lpF" id="e5W-Qj-4Ki"/>
-                        <segue destination="k3h-Q9-Is0" kind="show" identifier="male19" id="Irp-JJ-X85"/>
+                        <segue destination="k3h-Q9-Is0" kind="show" identifier="male19" id="F30-ig-6pj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CIG-3C-SEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3806" y="-315"/>
+            <point key="canvasLocation" x="3805.7971014492755" y="-315.40178571428572"/>
         </scene>
         <!--dietSummaryMaleNineteenToThirty-->
         <scene sceneID="ghz-ED-MIA">
@@ -1604,30 +1623,41 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWl-5l-nJB">
+                                <rect key="frame" x="57" y="295" width="300" height="389"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zec-BO-ste">
+                                <rect key="frame" x="20" y="769" width="49" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Jh4-ha-OOT"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Wqd-R0-wTi">
                                 <rect key="frame" x="-160" y="-10" width="735" height="862"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWl-5l-nJB">
-                                <rect key="frame" x="69" y="316" width="300" height="297"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Iii-9A-sc8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="dSV-Sd-QZ2"/>
                     <connections>
-                        <outlet property="DietSummary" destination="CWl-5l-nJB" id="3IU-DA-Ik9"/>
-                        <outlet property="dietSummaryMale19" destination="CWl-5l-nJB" id="Y4k-BH-ya3"/>
+                        <outlet property="dietSummaryMale19" destination="CWl-5l-nJB" id="Eg6-g1-AnF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Cv-gk-q6X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4609" y="-315"/>
+            <point key="canvasLocation" x="4607.2463768115949" y="-315.40178571428572"/>
         </scene>
         <!--dietMaleNineToThirteen-->
         <scene sceneID="F7h-n9-Okt">
@@ -1637,6 +1667,10 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gnI-BF-IdV">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KGg-jb-3Ne">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1655,13 +1689,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDn-Oi-tiK">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDn-Oi-tiK">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F3-xd-IUz">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F3-xd-IUz">
                                 <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1672,18 +1708,9 @@ reduce stress and improve your mood
                                     <action selector="submitButtonMale9:" destination="Vhl-Cn-Ku2" eventType="touchUpInside" id="NrC-6B-ecy"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="gnI-BF-IdV">
-                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="isk-Nw-0yP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="isk-Nw-0yP" firstAttribute="bottom" secondItem="8F3-xd-IUz" secondAttribute="bottom" constant="85" id="C7k-3T-HZl"/>
-                            <constraint firstItem="8F3-xd-IUz" firstAttribute="centerX" secondItem="Huw-iV-EuV" secondAttribute="centerX" id="IOu-MU-Eu2"/>
-                            <constraint firstItem="8F3-xd-IUz" firstAttribute="top" secondItem="NDn-Oi-tiK" secondAttribute="bottom" constant="136" id="bka-LM-cUb"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kFm-UM-ZRh"/>
                     <connections>
@@ -1711,12 +1738,24 @@ reduce stress and improve your mood
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlH-03-dDx">
-                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <rect key="frame" x="69" y="289" width="300" height="428"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVh-R6-4Xi">
+                                <rect key="frame" x="20" y="770" width="47" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="nEk-xh-mJ3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fnS-M4-TIW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1728,7 +1767,7 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mg6-8l-7Zh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2904" y="-1171"/>
+            <point key="canvasLocation" x="2902.898550724638" y="-1171.2053571428571"/>
         </scene>
         <!--dietFemaleFourteenToEighteen-->
         <scene sceneID="7MD-WS-pcK">
@@ -1738,6 +1777,10 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Z01-oH-ohv">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egw-Gn-Ia9">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1756,13 +1799,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-VO-xyh">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-VO-xyh">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ou-ZA-9Ts">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ou-ZA-9Ts">
                                 <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1770,28 +1815,20 @@ reduce stress and improve your mood
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="submitButton:" destination="YjZ-ai-quS" eventType="touchUpInside" id="2pq-xj-rD2"/>
+                                    <action selector="fem14SubmitButton:" destination="YjZ-ai-quS" eventType="touchUpInside" id="rbt-Vg-0o8"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Z01-oH-ohv">
-                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kwe-g4-rAY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="2ou-ZA-9Ts" firstAttribute="top" secondItem="aI4-VO-xyh" secondAttribute="bottom" constant="136" id="c1c-GH-A8T"/>
-                            <constraint firstItem="2ou-ZA-9Ts" firstAttribute="centerX" secondItem="FOl-Is-Ip6" secondAttribute="centerX" id="y65-DM-f5c"/>
-                            <constraint firstItem="kwe-g4-rAY" firstAttribute="bottom" secondItem="2ou-ZA-9Ts" secondAttribute="bottom" constant="85" id="z3Y-Rm-52d"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="p4C-ji-6Ag"/>
                     <connections>
-                        <outlet property="fruitText" destination="egw-Gn-Ia9" id="ndA-nE-4L4"/>
-                        <outlet property="grainsTextField" destination="THI-tG-hT5" id="D92-Hc-20z"/>
-                        <outlet property="proteinTextField" destination="aI4-VO-xyh" id="DGx-QX-tOj"/>
-                        <outlet property="vegTextField" destination="9dj-2w-XSx" id="h6m-H8-7RP"/>
+                        <outlet property="fem14FruitText" destination="egw-Gn-Ia9" id="S0W-GH-dUa"/>
+                        <outlet property="fem14GrainsText" destination="THI-tG-hT5" id="0Xg-Ub-pzy"/>
+                        <outlet property="fem14ProteinText" destination="aI4-VO-xyh" id="GCv-xt-8oJ"/>
+                        <outlet property="fem14VegText" destination="9dj-2w-XSx" id="o2Y-sg-ROb"/>
+                        <segue destination="hbz-Ie-hHm" kind="show" identifier="fem14" id="zdg-y1-6ko"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1la-aJ-jRx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1803,7 +1840,7 @@ reduce stress and improve your mood
             <objects>
                 <viewController title="dietSummaryFemaleFourteenToEighteen" id="hbz-Ie-hHm" customClass="dietSummaryFemaleFourteenToEighteen" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ZB-d0-xha">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="82F-ad-zC6">
@@ -1811,24 +1848,36 @@ reduce stress and improve your mood
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9CE-u7-Tg5">
-                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <rect key="frame" x="57" y="303" width="300" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tSS-IK-dfa">
+                                <rect key="frame" x="23" y="775" width="39" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ebd-7i-qZv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jOn-da-5lr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="SZT-KZ-BXB"/>
                     <connections>
-                        <outlet property="DietSummary" destination="9CE-u7-Tg5" id="KqA-bX-iSn"/>
+                        <outlet property="fem14DietSummary" destination="9CE-u7-Tg5" id="DIu-Oi-wCs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpQ-0I-W2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4609" y="1063"/>
+            <point key="canvasLocation" x="4607.2463768115949" y="1062.7232142857142"/>
         </scene>
         <!--Diet-->
         <scene sceneID="uNo-2c-tYF">
@@ -1838,6 +1887,10 @@ reduce stress and improve your mood
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="V8d-Ci-ZpZ">
+                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ki-GC-iUF">
                                 <rect key="frame" x="159" y="338" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1856,13 +1909,15 @@ reduce stress and improve your mood
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-o9-Eli">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhK-o9-Eli">
                                 <rect key="frame" x="159" y="573" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYz-Sh-Flf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYz-Sh-Flf">
                                 <rect key="frame" x="99" y="680" width="216" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -1870,28 +1925,20 @@ reduce stress and improve your mood
                                     <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="submitButton:" destination="Exj-ZW-guJ" eventType="touchUpInside" id="j3M-0O-4if"/>
+                                    <action selector="fem19SubmitButton:" destination="Exj-ZW-guJ" eventType="touchUpInside" id="HE5-Ws-ShQ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 10.53.53 AM" translatesAutoresizingMaskIntoConstraints="NO" id="V8d-Ci-ZpZ">
-                                <rect key="frame" x="-121" y="0.0" width="657" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nm4-xZ-60r"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="vYz-Sh-Flf" firstAttribute="centerX" secondItem="MGQ-oN-hYu" secondAttribute="centerX" id="Abw-pZ-ZTE"/>
-                            <constraint firstItem="vYz-Sh-Flf" firstAttribute="top" secondItem="VhK-o9-Eli" secondAttribute="bottom" constant="136" id="CV9-oc-O5f"/>
-                            <constraint firstItem="nm4-xZ-60r" firstAttribute="bottom" secondItem="vYz-Sh-Flf" secondAttribute="bottom" constant="85" id="Kor-gv-YI5"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0do-9h-GDS"/>
                     <connections>
-                        <outlet property="fruitText" destination="2ki-GC-iUF" id="Q2q-Ua-txz"/>
-                        <outlet property="grainsTextField" destination="4bj-Av-tWI" id="oZp-Iu-rkY"/>
-                        <outlet property="proteinTextField" destination="VhK-o9-Eli" id="LPg-t8-QXv"/>
-                        <outlet property="vegTextField" destination="hki-AP-fn4" id="UVy-c8-8aA"/>
+                        <outlet property="fem19FruitText" destination="2ki-GC-iUF" id="q7h-vQ-Vfc"/>
+                        <outlet property="fem19GrainsText" destination="4bj-Av-tWI" id="chj-ey-bQ9"/>
+                        <outlet property="fem19ProteinText" destination="VhK-o9-Eli" id="Dbu-zA-ZqZ"/>
+                        <outlet property="fem19VegText" destination="hki-AP-fn4" id="kGO-6Y-rIE"/>
+                        <segue destination="YVZ-mB-tm3" kind="show" identifier="fem19" id="eNN-1l-rWW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvC-7U-rlk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1903,7 +1950,7 @@ reduce stress and improve your mood
             <objects>
                 <viewController title="Diet2" id="YVZ-mB-tm3" customClass="dietSummaryFemaleNineteenToThirty" customModule="YOUdemonia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vdh-3w-jgP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-07-21 at 11.35.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="FIG-7H-fmy">
@@ -1911,12 +1958,24 @@ reduce stress and improve your mood
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y63-4Q-b9w">
-                                <rect key="frame" x="69" y="316" width="300" height="297"/>
+                                <rect key="frame" x="69" y="316" width="300" height="383"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-xv-eOK">
+                                <rect key="frame" x="23" y="775" width="41" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="23"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1o4-cA-ulh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CkW-k7-zGY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1928,13 +1987,13 @@ reduce stress and improve your mood
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3G-VO-9y7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3055" y="1501"/>
+            <point key="canvasLocation" x="3053.6231884057975" y="1500.6696428571429"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="m5I-4E-QMe"/>
+        <segue reference="thn-xq-AB5"/>
         <segue reference="MDG-Y1-Llw"/>
-        <segue reference="V66-GM-Ash"/>
+        <segue reference="1o4-cA-ulh"/>
         <segue reference="qpH-UJ-X61"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1968,6 +2027,9 @@ reduce stress and improve your mood
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -12,7 +12,8 @@ class dietSummaryMaleNineToThirteen: UIViewController {
     @IBOutlet weak var dietSummaryLabelMale9: UILabel!
     
     override func viewDidLoad() {
-        var enoughFruit = ""//using these vars to store diff values for the final statement. Each var will go through a conditional statement that checks whether the user ate enough of the category that day.
+        
+        var enoughFruit = " "//using these vars to store diff values for the final statement. Each var will go through a conditional statement that checks whether the user ate enough of the category that day.
         var enoughVeg = " "
         var enoughGrains = " "
         var enoughProtein = " "
@@ -21,7 +22,7 @@ class dietSummaryMaleNineToThirteen: UIViewController {
         enoughFruit = "You ate enough fruit today. The recommended amount is at least 1.5 cups."
         } else {
         //Double(userFruitInput)! -= 1.5 might need to add an exclamation mark after the var name?
-        enoughFruit = "You need at least some more fruit. The recommended amount is at least 1.5 cups." //maybe need an exclamation mark here too?
+        enoughFruit = "You need some more fruit. The recommended amount is at least 1.5 cups." //maybe need an exclamation mark here too?
         }
  
         if Double(userVegInput)! >= 2.5 {
